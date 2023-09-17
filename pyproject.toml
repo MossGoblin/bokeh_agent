@@ -4,11 +4,11 @@ build-backend = "hatchling.build"
 
 [project]
 name = "bokeh_scatter_agent_mossgoblin"
-version = "0.1.1"
+version = "0.1.2"
 authors = [
   { name="MossGoblin", email="hugolabs@gmail.com" },
 ]
-description = "A bokeh agent for creating scatter plot"
+description = "A class for creating a bokeh scatter plot"
 readme = "README.md"
 requires-python = ">=3.9.17"
 classifiers = [
