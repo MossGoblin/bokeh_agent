@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "bokeh_scatter_mossgoblin"
+version = "0.1.0"
+authors = [
+  { name="MossGoblin", email="hugolabs@gmail.com" },
+]
+description = "A bokeh agent for creating scatter plot"
+readme = "README.md"
+requires-python = ">=3.9.17"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/MossGoblin/bokeh_scatter_agent"
+"Bug Tracker" = "https://github.com/MossGoblin/bokeh_scatter_agent/issues"
