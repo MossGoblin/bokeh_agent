@@ -92,7 +92,7 @@ class BokehScatterAgent():
         hover = models.HoverTool(tooltips=self.tooltips)
         self.figure.add_tools(hover)
 
-    def _generate(self) -> None:
+    def generate(self) -> None:
         '''
         Returns a figure with the provided parameters
         '''
